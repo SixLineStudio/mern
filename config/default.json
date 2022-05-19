@@ -1,0 +1,6 @@
+{
+    "port":5000,
+    "mongoUri":"mongodb+srv://shank:190807@cluster0.3nn8t.mongodb.net/?retryWrites=true&w=majority",
+    "jvtSecret" : "lala salamanko",
+    "baseUrl": "http://localhost:5000"
+}
