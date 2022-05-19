@@ -15,7 +15,8 @@ export const useHttp = () => {
                 // console.log(body)
             }
 
-            const responce = await fetch( "http://localhost:5000"+url, {method, body, headers})
+            const responce = await fetch( url, {method, body, headers})
+           // const responce = await fetch( "http://localhost:5000"+url, {method, body, headers})
             const data =  await responce.json()
 
             if (!responce.ok) {
